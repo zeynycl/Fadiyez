@@ -31,4 +31,5 @@ public class Siparis {
     public int getSiparisNo() {
         return siparisNo;
     }
+
 }
