@@ -1,26 +1,29 @@
-public class Urun {
-    private int id; // YENİ: Veritabanındaki ID ile eşleşmesi için
+package ProjeDeneme;
+
+abstract class Urun implements IMenuItem {
+    // UML'deki private değişkenler
     private String ad;
     private double fiyat;
+    
+    // Veritabanı için eklediğimiz değişkenler (UML'de görünmese de şart)
+    private int id; // Veritabanındaki 'idurunler' sütunu için
+    private int stok;
 
-    // Veritabanından çekerken ID'yi de alacağız
-    public Urun(int id, String ad, double fiyat) {
+    public Urun(int id, String ad, double fiyat, int stok) {
         this.id = id;
         this.ad = ad;
         this.fiyat = fiyat;
-    }
-    
-    // Sadece ismini ve fiyatını bildiğimiz yeni ürünler için (Opsiyonel)
-    public Urun(String ad, double fiyat) {
-        this(0, ad, fiyat); // ID yoksa 0 ata
+        this.stok = stok;
     }
 
-    public int getId() { return id; } // YENİ
-    public String getAd() { return ad; }
-    public double getFiyat() { return fiyat; }
-
+    // UML'deki getFiyat metodu
     @Override
-    public String toString() {
-        return ad + " (" + fiyat + " TL)";
+    public double getFiyat() {
+        return fiyat;
     }
+
+    // Getter Metotları
+    public String getAd() { return ad; }
+    public int getId() { return id; }
+    public int getStok() { return stok; }
 }
