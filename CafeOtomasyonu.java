@@ -20,10 +20,10 @@ public class CafeOtomasyonu extends JFrame {
     private static final long serialVersionUID = 1L;
 
     public CafeOtomasyonu() {
-        // 1. Verileri veritabanından çek
+        // Verileri veritabanından çek
         verileriYukle();
 
-        // 2. Pencere Ayarları
+        // Pencere Ayarları
         setTitle("Fadiyez Kafe");
         setSize(1200, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -209,4 +209,5 @@ public class CafeOtomasyonu extends JFrame {
             JOptionPane.showMessageDialog(this, "Stok Yetersiz!");
         }
     }
+
 }
