@@ -1,4 +1,6 @@
-PROJE RAPORU: KAFE OTOMASYON VE STOK TAKİP SİSTEMİ
+PROJE RAPORU
+
+KAFE OTOMASYON VE STOK TAKİP SİSTEMİ
 
 Ders Adı: Nesne Tabanlı Programlama 
 
@@ -91,4 +93,6 @@ Ayrıca, Swing arayüzünde butonların stok azaldığında anlık olarak günce
 6. SONUÇ
    
 Bu proje ile teorik olarak öğrendiğimiz Java ve Veritabanı bilgilerini somut bir ürüne dönüştürme fırsatı bulduk. Sistemimiz şu an sorunsuz bir şekilde sipariş alıp stok düşebilmektedir.
+
+
 
