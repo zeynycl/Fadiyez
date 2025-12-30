@@ -94,5 +94,9 @@ Ayrıca, Swing arayüzünde butonların stok azaldığında anlık olarak günce
    
 Bu proje ile teorik olarak öğrendiğimiz Java ve Veritabanı bilgilerini somut bir ürüne dönüştürme fırsatı bulduk. Sistemimiz şu an sorunsuz bir şekilde sipariş alıp stok düşebilmektedir.
 
+PROJE VİDEOSU
+
+https://www.youtube.com/watch?v=ZeUsk4RTXdw
+
 
 
